@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css" integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="dark:bg-slate-900 dark:text-white">
+
+    <!-- start Header -->
+    <header class="flex items-center justify-between md:justify-around p-7 uppercase">
+        <div>
+            <a href="" class="text-2xl font-bold  ">Salemovic</a>
+        </div>
+        <nav class="hidden md:flex space-x-8 text-lg  ">
+            <a href="#hero" class="transition duration-500 hover:text-slate-500">Home</a>
+            <a href="#about" class="transition duration-500 hover:text-slate-500">About</a>
+            <a href="#Portfolio" class="transition duration-500 hover:text-slate-500">Portfolio</a>
+            <a href="#contact" class="transition duration-500 hover:text-slate-500">Contact</a>
+        </nav>
+        <div class="hidden md:flex items-center space-x-5">
+            <div class="">
+                <i class=" btn-dark-light text-xl ri-sun-line "></i>
+            </div>
+           
+            <!-- <a href="" class="px-3 py-1  rounded-md ring-1  transition duration-500 hover:ring-4">Hire me</a> -->
+        </div>
+        <button class="text-xl md:hidden">
+            <i class="btn-menu ri-menu-line"></i>    
+        </button>
+
+        
+    </header>
+    <div class="hidden md:hidden mobile-menu w-full absolute bg-slate-600 p-5 drop-shadow-lg">
+        <nav class="text-sm space-y-2 flex flex-col items-center">
+            <a href="#hero" class="transition duration-500 hover:text-slate-500">Home</a>
+            <a href="#about" class="transition duration-500 hover:text-slate-500">About</a>
+            <a href="#Portfolio" class="transition duration-500 hover:text-slate-500">Portfolio</a>
+            <a href="#contact" class="transition duration-500 hover:text-slate-500">Contact</a>
+        </nav>
+    </div>
+    <!-- End Header -->
+
+    <!-- start hero -->
+    <section id="hero" style="height: 50vh;" class="flex items-center " >
+
+        <div class="flex justify-center items-center flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-5 ">
+
+            <div class="h-full  md:w-1/2 pl-8 md:pl-32 space-y-5 flex justify-center items-start flex-col">
+                <h1 class="font-bold text-4xl uppercase">Hi I'm <span class="text-blue-800 ">Salem</span></h1>
+                <p class="text-3xl md:text-5xl uppercase">I'm  a <span id="animated-text" class="font-bold "></span></p>
+                <p class="text-xl font-extralight"> developer with a passion for creating innovative web experiences</p>
+                <a href="" class="px-3 py-2.5 self-center md:self-start ring-2 rounded-md transition duration-500 hover:ring-4">View Projects</a>
+                <div class="mt-3 mx-auto md:mx-1  space-x-3">
+                    <a href=""><i class="text-2xl transition duration-500 hover:text-slate-900 ri-twitter-x-line"></i></a> 
+                    <a href=""><i class="text-2xl transition duration-500 hover:text-red-600 ri-instagram-line"></i></a>
+                    <a href=""><i class="text-2xl transition duration-500 hover:text-blue-600 ri-facebook-box-fill"></i></a>
+                    <a href=""><i class="text-2xl transition duration-500 hover:text-gray-400 ri-github-line"></i></a> 
+                    
+                </div>
+            </div>
+
+            <div class="h-full  md:w-1/2 flex justify-center">
+                <img src="imgs/undraw_launch_day_4e04.svg" alt="hero_img" class="w-1/2 animation-moveToUpandDown "  >
+            </div>
+        </div>
+    </section>
+    <!-- End hero -->
+
+    <!-- Start about -->
+    <section id="about" class="p-10 md:p-24">
+
+        <div class="container mx-auto  ">
+
+            <div class=" h-full flex flex-col md:flex-row md:space-x-10">
+                <div class=" md:w-1/2 flex items-center justify-center">
+                    <img src="imgs/Simple Profile Photo Instagram Post.png" alt="" class="w-1/2 animation-fade-in">
+                </div>
+                <div class=" h-full md:w-1/2 md:p-10">
+                    <h1 class="text-4xl font-bold  text-slate-950 uppercase mb-10 dark:text-white">About <span class="text-blue-900">Me</span></h1>
+                    <p class="text-sm md:text-2xl font-extralight uppercase ">Welcome to my corner of the web! I'm salem almaari,
+                         a passionate and dedicated web developer committed to crafting digital experiences that are not just visually appealing but also functional and user-friendly.</p>
+                </div>
+            </div>  
+            <div class=" mt-14 flex items-center justify-center flex-wrap gap-5">
+                <h1 class="font-bold text-xl uppercase">My Stack  &longrightarrow;</h1>
+                    <img src="imgs/csharp-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    <img src="imgs/html-5-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    <img src="imgs/css-3-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    <img src="imgs/javascript-svgrepo-com(1).svg" alt="" class="w-12 p-2">
+                    <img src="imgs/tailwindcss-icon-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    <img src="imgs/dotnet-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    <img src="imgs/msql-server-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    <img src="imgs/git-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    <img src="imgs/github-142-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    <img src="imgs/linux-svgrepo-com.svg" alt="" class="w-12 p-2">
+                    
+                   
+            </div>
+        </div>
+    </section>
+    <!-- End about -->
+
+    <!-- Start Portfolio -->
+    <section id="Portfolio" class=" p-5 md:p-20">
+
+        <h1 class="text-center font-bold text-4xl">Projects.</h1>
+
+        <div class="container p-16">
+
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10">
+
+
+               
+
+                <div class=" md:w-1/3  shadow-sm rounded-md transition duration-500  hover:shadow-lg  ">
+                    <div class="overflow-hidden">
+                        <img src="imgs/storage-service.jpg" alt="img" class=" transition duration-500 hover:scale-110 hover:opacity-50">
+                    </div>
+                    <div class="p-4  md:h-52 flex flex-col justify-around">
+                        <h1 class="mb-2 font-bold text-xl uppercase">E commerce App</h1>
+                         <p class="mb-5 font-extralight text-lg">
+                            Shop smarter, faster! Our e-commerce app offers endless choices,
+                             seamless browsing, and secure transactions—all in one place.
+                        </p>
+                         <a href="" class="self-start px-3 py-1 ring-1 rounded-md transition duration-500  hover:ring-2"><span><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i></span> Live Preview</a>
+                    </div>
+                </div>
+
+                <div class="md:w-1/3 shadow-sm rounded-md transition duration-500  hover:shadow-lg ">
+                    <div class="overflow-hidden">
+                        <img src="imgs/storage-service.jpg" alt="img" class=" transition duration-500 hover:scale-110 hover:opacity-50">
+                    </div>
+                    <div class="p-4 h-52 flex flex-col justify-around">
+                        <h1 class="mb-2 font-bold text-xl uppercase">Shous App</h1>
+                         <p class="mb-5 font-extralight text-lg">
+                            Step up your shoe game! Our app brings the latest trends, diverse styles, and perfect fits right to your fingertips.
+                        </p>
+                         <a href="" class="self-start px-3 py-1 ring-1 rounded-md transition duration-500 hover:ring-2"><span><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i></span>Live Preview</a>
+                    </div>
+                </div>
+
+                <div class="md:w-1/3  shadow-sm rounded-md transition duration-500  hover:shadow-lg  ">
+                    <div class="overflow-hidden">
+                        <img src="imgs/storage-service.jpg" alt="img" class=" transition duration-500 hover:scale-110 hover:opacity-50">
+                    </div>
+                    <div class="p-4 h-52 flex flex-col justify-around">
+                        <h1 class="mb-2 font-bold text-xl uppercase">To Do App</h1>
+                         <p class="mb-5 font-extralight text-lg">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, quisquam?
+                        </p>
+                         <a href="" class="self-start px-3 py-1 ring-1  rounded-md transition duration-500  hover:ring-2"><span><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i></span>Live Preview</a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio -->
+
+    <!-- Start Contact -->
+    <section id="contact" class="p-10 md:p-32">
+
+        <div class="container flex flex-col md:flex-row gap-10">
+            <div class="md:w-1/2 space-y-5 ">
+                <h1 class="text-3xl font-bold  uppercase">Let's <span class="text-blue-900">Connect!</span></h1>
+                <p class="font-extralight text-sm text-justify md:text-start md:text-xl">
+                    I'm thrilled to hear from you! Whether you have an exciting project in mind, want to collaborate, or just want to say hello, I'm all ears. Feel free to drop
+                     me a line using the form below. Your message matters, and I'll make sure to get back to you as soon as possible. Let's turn ideas into reality together!
+                </p>
+                <div class="space-y-6">
+                   
+                    <p class="uppercase md:text-xl"><span class="mr-3"><i class="fa-solid fa-location-dot text-xl"></i></span>Yemen ,hadhrmout</p>
+                    <p class="uppercase md:text-xl"><span class="mr-3"><i class="fa-solid fa-phone"></i></span>+967 771 789 381</p>
+                    <p class="uppercase md:text-xl"><span class="mr-3"><i class="fa-regular fa-envelope"></i></span>jakihop889@gmail.com</p>
+                </div>
+
+            </div>
+
+    
+            <div class="md:w-1/2  ">
+                <form action="" class="space-y-4">
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="space-y-2">
+                            <label for="fname" class="block text-sm font-semibold leading-6 ">First Name</label>
+                            <input type="text" name="" id="fname"  class="block border-0 w-full px-3 py-2 outline-none ring-1 ring-inset ring-gray-200  rounded-md placeholder:text-slate-600 shadow-sm focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:bg-slate-700 dark:ring-slate-950 dark:focus:ring-indigo-600">
+                        </div>
+                        <div class="space-y-2">
+                            <label for="lname" class="block text-sm font-semibold leading-6 ">Last Name</label>
+                            <input type="text" name="" id="lname"  class="block border-0 w-full px-3 py-2 outline-none ring-1 ring-inset ring-gray-200 rounded-md placeholder:text-slate-600 shadow-sm focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:bg-slate-700 dark:ring-slate-950 dark:focus:ring-indigo-600">
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="email" class="block text-sm font-semibold leading-6 ">Email</label>
+                        <input type="email" name="" id="email"  class="block border-0 w-full px-3 py-2 outline-none ring-1 ring-inset ring-gray-200 rounded-md placeholder:text-slate-600 shadow-sm focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:bg-slate-700 dark:ring-slate-950 dark:focus:ring-indigo-600">
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="email" class="block text-sm font-semibold leading-6 ">Message</label>
+                        <textarea name="" id="" cols="30" rows="10" class="resize-none block border-0 w-full px-3 py-2 outline-none ring-1 ring-inset ring-gray-200 rounded-md placeholder:text-slate-600 shadow-sm focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:bg-slate-700 dark:ring-slate-950 dark:focus:ring-indigo-600"></textarea>  
+                    </div>
+
+                    <div>
+                        <button class="w-full  px-3.5 py-2.5 rounded-md text-white uppercase bg-indigo-600 font-semibold shadow-sm transition duration-500 hover:bg-indigo-500">Send</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Contact -->
+
+    <!-- start footer -->
+    <footer class="bg-slate-950">
+        <div class="flex items-center justify-around p-7 uppercase text-white">
+            <div>
+                <a href="" class="text-2xl font-bold  ">Salemovic</a>
+                <div class="mt-3 mx-auto md:mx-1  space-x-3">
+                    <a href=""><i class="text-2xl transition duration-500 hover:text-slate-900 ri-twitter-x-line"></i></a>
+                    <a href=""><i class="text-2xl transition duration-500 hover:text-red-600 ri-instagram-line"></i></a>
+                    <a href=""><i class="text-2xl transition duration-500 hover:text-blue-600 ri-facebook-box-fill"></i></a>
+                    <a href=""><i class="text-2xl transition duration-500 hover:text-gray-400 ri-github-line"></i></a> 
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-lg  ">
+                <a href="#hero" class="transition duration-500 hover:text-slate-500">Home</a>
+                <a href="#about" class="transition duration-500 hover:text-slate-500">About</a>
+                <a href="#Portfolio" class="transition duration-500 hover:text-slate-500">Portfolio</a>
+                <a href="#contact" class="transition duration-500 hover:text-slate-500">Contact</a>
+            </nav>
+            <div class="p-5 text-white text-center" >
+                <h1>All right Reserved 2024</h1>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- end footer -->
+
+    <script src="main.js"></script>
+</body>
+</html>

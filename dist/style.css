@@ -1,0 +1,100 @@
+*{
+    scroll-behavior: smooth;
+}
+section{
+    min-height: 100vh;
+}
+.animation-moveToUpandDown{
+    animation: moveToUpandDown 3s alternate-reverse;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes moveToUpandDown {
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+#animated-text::after{
+    content: "";
+    animation-name: add-and-remove-text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes add-and-remove-text {
+    0%{
+        content: "";
+    }
+    5%{
+        content: "W";
+    }
+    10%{
+        content: "WE";
+    }
+    15%{
+        content: "WEB";
+    }
+    20%{
+        content: "WEB ";
+    }
+    25%{
+        content: "WEB D";
+    }
+    30%{
+        content: "WEB DE";
+    }
+    35%{
+        content: "WEB DEV";
+    }
+    40%{
+        content: "WEB DEVE";
+    }
+    50%{
+        content: "WEB DEVEL";
+    }
+    60%{
+        content: "WEB DEVELO";
+    }
+    70%{
+        content: "WEB DEVELOP";
+    }
+    75%{
+        content: "WEB DEVELOPE";
+    }
+    80%{
+        content: "WEB DEVELOPER";
+    }
+    85%{
+        content: "WEB DEVELOPER|";
+    }
+    90%{
+        content: "WEB DEVELOPER";
+    }
+    92%{
+        content: "WEB DEVELOPER|";
+    }
+    96%{
+        content: "WEB DEVELOPER";
+    }
+    100%{
+        content: "WEB DEVELOPER|";
+    }
+}
+.animation-fade-in{
+    animation: fade-in 6s alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes fade-in {
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
